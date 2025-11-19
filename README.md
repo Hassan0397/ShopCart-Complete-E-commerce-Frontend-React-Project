@@ -65,47 +65,6 @@
 - **Form validation** with comprehensive error handling
 - **Loading states** throughout the application
 
----
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── common/           # Reusable UI components
-│   │   ├── LoadingSpinner.jsx
-│   │   ├── ProtectedRoute.jsx
-│   │   └── ErrorBoundary.jsx
-│   ├── layout/           # Layout components
-│   │   ├── Navbar.jsx
-│   │   └── Footer.jsx
-│   ├── products/         # Product-related components
-│   │   └── ProductCard.jsx
-│   └── checkout/         # Checkout components
-│       └── OrderSummary.jsx
-├── context/              # State management
-│   ├── AuthContext.jsx
-│   ├── CartContext.jsx
-│   ├── CheckoutContext.jsx
-│   └── OrdersContext.jsx
-├── pages/                # Main application pages
-│   ├── HomePage.jsx
-│   ├── ProductListing.jsx
-│   ├── ProductDetail.jsx
-│   ├── CartPage.jsx
-│   ├── LoginPage.jsx
-│   ├── RegisterPage.jsx
-│   ├── AccountPage.jsx
-│   ├── CheckoutPage.jsx
-│   ├── OrderConfirmationPage.jsx
-│   └── account/          # User account pages
-│       ├── OrderHistoryPage.jsx
-│       └── OrderDetailsPage.jsx
-└── services/             # API services
-    └── products.js
-```
-
----
 
 ## 🎯 Key User Flows
 
